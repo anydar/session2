@@ -1,0 +1,9 @@
+name: this is a gigthub action
+run-name: this is the run name
+on: [push]
+jobs:
+  Echo:
+    runs-on: ubuntu latest
+    steps:
+      - name: cat temp.txt
+        run: cat temp.txt
